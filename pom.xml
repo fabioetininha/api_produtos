@@ -52,6 +52,18 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd">
 			<artifactId>springfox-boot-starter</artifactId>
 			<version>3.0.0</version>
 		</dependency>
+	
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.postgresql</groupId>
+    		<artifactId>postgresql</artifactId>
+		</dependency>
+
 		
 	</dependencies>
 
